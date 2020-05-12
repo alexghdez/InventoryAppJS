@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>WORK TO-DOS</title>
+</head>
+
+<body id="main-div">
+    <h1 id="header">WORK TO-DOS</h1>
+    <h2 id="subtitle">Enter text into the input field to add items to your list (max. 28 characters)</h2>
+    <h3 id="subtext1">Click the item to mark it as completed</h3>
+    <h4 id="subtext2">Click the X to remove the item from your list</h4>
+
+    <input id="newitem" type="text" placeholder="New item..." maxlength="28" />
+    <button id="add" class="fa fa-pencil" onclick="addItem()"></button>
+
+    <ul id="tasks"></ul>
+</body>
+
+<script src="scripts/functions.js"></script>
+
+</html>
