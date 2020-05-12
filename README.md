@@ -1,4 +1,4 @@
 # InventoryAppJS
 To do app for JS training
 
-![](ToDoApp.jpg)
+![](ToDoApp.png)
